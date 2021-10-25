@@ -11,6 +11,7 @@ namespace Entidades
         public long IdPaciente { get; set; }
         public string NombreCompleto { get; set; }
         public TipoIdentificacion TipoIdentificacion { get; set; }
+        
         public string NumeroIdentificacion { get; set; }
         
         private DateTime fechaNacimiento;
@@ -28,15 +29,14 @@ namespace Entidades
                     fechaNacimiento = value;
             }
         }
-        public int Edad { get; set; }
+        public string Edad { get; set; }
         public EstadoCivil EstadoCivil { get; set; }
-        public string DireccionResidenca { get; set; }
+        public string DireccionResidencia { get; set; }
         public string CiudadResidencia { get; set; }
         public string TelefonoContacto { get; set; }
         public string Ocupacion { get; set; }
-        public NivelEscolaridad NivelEscolatidad { get; set; }
+        public NivelEscolaridad NivelEscolaridad { get; set; }
         public string Eps { get; set; }
-        
         public string Email { get; set; }
         public string ContactoCasoEmergencia { get; set; }
         public Genero Genero { get; set; }

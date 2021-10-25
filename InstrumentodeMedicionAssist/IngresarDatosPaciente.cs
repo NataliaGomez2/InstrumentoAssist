@@ -15,7 +15,7 @@ namespace InstrumentodeMedicionAssist
 {
     public partial class IngresarDatosPaciente : Form
     {
-        IRepositorioPaciente repositorioPaciente = new RepositorioPaciente();
+        IRepositorioPaciente repositorioPaciente = new RepositorioPacienteEF();
         IRepositorioMaestro repositorioMaestro = new RepositorioMaestro();
 
 
@@ -26,24 +26,38 @@ namespace InstrumentodeMedicionAssist
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            var paciente = ObtenerPaciente();
-            if (paciente != null)
+            try
             {
 
-                var negocioPaciente = new NegocioPaciente(repositorioPaciente);
-                var idPaciente = negocioPaciente.IngresarPaciente(paciente);
+                var paciente = ObtenerPaciente();
+                if (paciente != null)
+                {
 
-                MessageBox.Show($"Se ingresó el paciente de manera exitosa", "Paciente",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                    var negocioPaciente = new NegocioPaciente(repositorioPaciente);
+                    var idPaciente = negocioPaciente.IngresarPaciente(paciente);
+
+                    MessageBox.Show($"Se ingresó el paciente de manera exitosa", "Paciente",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Hay errores en el formulario que deben corregirse. Por favor verifique", "Paciente",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
+
             }
-            else
+            catch (Exception exc)
             {
-                MessageBox.Show("Hay errores en el formulario que deben corregirse. Por favor verifique", "Paciente",
+                MessageBox.Show($"No se pudo ingresar el paciente. Error {exc.Message}", "Paciente",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
-    
+            finally
+            {
+
+            }
         }
 
         private Paciente ObtenerPaciente()
@@ -69,7 +83,7 @@ namespace InstrumentodeMedicionAssist
                 erpError.SetError(txtNombreCompleto, "Debe ingresar el nombre completo");
                 errores = true;
             }
-            if (cmbTipoIdentificacion.SelectedItem==null)
+            if (cmbTipoIdentificacion.SelectedItem == null)
             {
                 erpError.SetError(cmbTipoIdentificacion, "Debe seleccionar el tipo de identificación");
                 errores = true;
@@ -156,14 +170,14 @@ namespace InstrumentodeMedicionAssist
                 NombreCompleto = txtNombreCompleto.Text,
                 TipoIdentificacion = cmbTipoIdentificacion.SelectedItem as TipoIdentificacion,
                 NumeroIdentificacion = txtNumeroID.Text,
-                Edad = txtEdad.SelectionLength,
+                Edad = txtEdad.Text,
                 FechaNacimiento = dtpFechaNacimiento.Value,
                 EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
-                DireccionResidenca = txtDireccionResidencia.Text,
+                DireccionResidencia = txtDireccionResidencia.Text,
                 CiudadResidencia = txtCiudadResidencia.Text,
                 TelefonoContacto = txtTelefonoContacto.Text,
                 Ocupacion = txtOcupacion.Text,
-                NivelEscolatidad = cmbNivelEscolaridad.SelectedItem as NivelEscolaridad,
+                NivelEscolaridad = cmbNivelEscolaridad.SelectedItem as NivelEscolaridad,
                 Eps = txtEps.Text,
                 Email = txtEmail.Text,
                 ContactoCasoEmergencia = txtContactoEmergencia.Text,
@@ -172,14 +186,16 @@ namespace InstrumentodeMedicionAssist
             {
                 paciente.Genero = new Genero()
                 {
-                    Id = (int)Entidades.Enumerados.Genero.Femenino
+                    Id = (int)Entidades.Enumerados.Genero.Femenino,
+                    Nombre = Entidades.Enumerados.Genero.Femenino.ToString()
                 };
             }
             else if (rdbMasculino.Checked)
             {
                 paciente.Genero = new Genero()
                 {
-                    Id = (int)Entidades.Enumerados.Genero.Masculino
+                    Id = (int)Entidades.Enumerados.Genero.Masculino,
+                    Nombre = Entidades.Enumerados.Genero.Masculino.ToString()
                 };
 
             }
@@ -188,14 +204,17 @@ namespace InstrumentodeMedicionAssist
             {
                 paciente.Regimen = new Regimen()
                 {
-                    Id = (int)Entidades.Enumerados.Regimen.Subsidiado
+                    Id = (int)Entidades.Enumerados.Regimen.Subsidiado,
+                    Nombre = Entidades.Enumerados.Regimen.Subsidiado.ToString()
+
                 };
             }
             else if (rdbContributivo.Checked)
             {
                 paciente.Regimen = new Regimen()
                 {
-                    Id = (int)Entidades.Enumerados.Regimen.Contributivo
+                    Id = (int)Entidades.Enumerados.Regimen.Contributivo,
+                    Nombre = Entidades.Enumerados.Regimen.Contributivo.ToString()
                 };
 
             }
@@ -222,28 +241,10 @@ namespace InstrumentodeMedicionAssist
             cmbNivelEscolaridad.DataSource = negocioMaestro.ObtenerNivelEscolaridad();
             cmbNivelEscolaridad.DisplayMember = "Nombre";
             cmbNivelEscolaridad.SelectedItem = null;
-            
-        }
-
-       
-        private void txtNumeroID_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar < 48 || e.KeyChar>57)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar < 48 || e.KeyChar > 57)
-            {
-                e.Handled = true;
-            }
 
         }
 
-        private void txtTelefonoContacto_KeyPress(object sender, KeyPressEventArgs e)
+        private static void txtTelefonoContacto_KeyPress(object sender, KeyPressEventArgs e)
         {
 
             if (e.KeyChar < 48 || e.KeyChar > 57)
@@ -252,7 +253,7 @@ namespace InstrumentodeMedicionAssist
             }
         }
 
-        private void txtContactoEmergencia_KeyPress(object sender, KeyPressEventArgs e)
+        private static void txtContactoEmergencia_KeyPress(object sender, KeyPressEventArgs e)
         {
 
             if (e.KeyChar < 48 || e.KeyChar > 57)
@@ -264,9 +265,26 @@ namespace InstrumentodeMedicionAssist
         private void txtNumeroID_Validating(object sender, CancelEventArgs e)
         {
             erpError.SetError(txtNumeroID, null);
-            if(txtNumeroID.Text.Length < 4)
+            if (txtNumeroID.Text.Length < 4)
             {
                 erpError.SetError(txtNumeroID, "El número de identificación no es válido");
+            }
+        }
+
+        private static void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar < 48 || e.KeyChar > 57)
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private static void txtNumeroID_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar < 48 || e.KeyChar > 57)
+            {
+                e.Handled = true;
             }
         }
 
@@ -276,7 +294,7 @@ namespace InstrumentodeMedicionAssist
             if (dtpFechaNacimiento.Value > DateTime.Now)
             {
                 erpError.SetError(dtpFechaNacimiento, "La fecha de nacimiento no debe ser mayor a la fecha actual");
-              
+
             }
         }
 
@@ -318,7 +336,7 @@ namespace InstrumentodeMedicionAssist
             form.Show();
             this.Hide();
         }
-    }
-    
 
-}
+
+    }
+} 

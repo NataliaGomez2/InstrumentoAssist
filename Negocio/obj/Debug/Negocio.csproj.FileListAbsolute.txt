@@ -1,0 +1,30 @@
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Repositorio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Repositorio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Modelos.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Repositorio.dll.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Modelos.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\Modelos.dll.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Negocio\bin\Debug\EntityFramework.xml

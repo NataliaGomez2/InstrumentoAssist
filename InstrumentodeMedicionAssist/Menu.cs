@@ -63,5 +63,12 @@ namespace InstrumentodeMedicionAssist
             childForm.MdiParent = this;
             childForm.Show();
         }
+
+        private void consultaPacientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new FormularioConsultaPacientes();
+            form.Show();
+            form.MdiParent = this;
+        }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class NivelEscolaridad
     {
-        public int Id { get; set; }
+        public short Id { get; set; }
         public string Nombre { get; set; }
     }
 }

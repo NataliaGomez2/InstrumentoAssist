@@ -259,7 +259,8 @@ namespace InstrumentodeMedicionAssist
             this.txtContactoEmergencia.Size = new System.Drawing.Size(213, 22);
             this.txtContactoEmergencia.TabIndex = 31;
             this.ttMensaje.SetToolTip(this.txtContactoEmergencia, "Contacto en caso de emergencia");
-            this.txtContactoEmergencia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtContactoEmergencia_KeyPress);
+            IngresarDatosPaciente ingresarDatosPaciente = this;
+            NewMethod();
             this.txtContactoEmergencia.Leave += new System.EventHandler(this.txtContactoEmergencia_Leave);
             // 
             // lblContactoCasoEmergencia
@@ -378,7 +379,7 @@ namespace InstrumentodeMedicionAssist
             this.txtTelefonoContacto.Size = new System.Drawing.Size(213, 22);
             this.txtTelefonoContacto.TabIndex = 19;
             this.ttMensaje.SetToolTip(this.txtTelefonoContacto, "Teléfono de contacto");
-            this.txtTelefonoContacto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefonoContacto_KeyPress);
+            this.txtTelefonoContacto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(txtTelefonoContacto_KeyPress);
             this.txtTelefonoContacto.Leave += new System.EventHandler(this.txtTelefonoContacto_Leave);
             // 
             // lblTelefonoContacto
@@ -449,7 +450,7 @@ namespace InstrumentodeMedicionAssist
             this.txtEdad.Size = new System.Drawing.Size(142, 22);
             this.txtEdad.TabIndex = 9;
             this.ttMensaje.SetToolTip(this.txtEdad, "Edad");
-            this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdad_KeyPress);
+            this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(txtEdad_KeyPress);
             this.txtEdad.Leave += new System.EventHandler(this.txtEdad_Leave);
             // 
             // lblFechaNacimiento
@@ -477,7 +478,7 @@ namespace InstrumentodeMedicionAssist
             this.txtNumeroID.Size = new System.Drawing.Size(270, 22);
             this.txtNumeroID.TabIndex = 5;
             this.ttMensaje.SetToolTip(this.txtNumeroID, "Número de identificación");
-            this.txtNumeroID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroID_KeyPress);
+            this.txtNumeroID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(txtNumeroID_KeyPress);
             this.txtNumeroID.Validating += new System.ComponentModel.CancelEventHandler(this.txtNumeroID_Validating);
             // 
             // lblNumeroId
@@ -540,6 +541,10 @@ namespace InstrumentodeMedicionAssist
             ((System.ComponentModel.ISupportInitialize)(this.erpError)).EndInit();
             this.ResumeLayout(false);
 
+            void NewMethod()
+            {
+                this.txtContactoEmergencia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(txtContactoEmergencia_KeyPress);
+            }
         }
 
         #endregion

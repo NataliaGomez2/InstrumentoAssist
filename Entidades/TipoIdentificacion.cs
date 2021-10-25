@@ -2,7 +2,7 @@
 {
     public class TipoIdentificacion
     {
-        public int Id { set; get; }
+        public short Id { set; get; }
         public string Nombre { get; set; }
     }
 }

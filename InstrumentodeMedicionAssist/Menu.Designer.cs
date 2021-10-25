@@ -33,6 +33,7 @@ namespace InstrumentodeMedicionAssist
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaPacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,13 +58,14 @@ namespace InstrumentodeMedicionAssist
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenu,
+            this.consultaPacientesToolStripMenuItem,
             this.viewMenu,
             this.toolsMenu,
             this.windowsMenu});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.MdiWindowListItem = this.windowsMenu;
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1152, 28);
+            this.menuStrip.Size = new System.Drawing.Size(1171, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -75,6 +77,13 @@ namespace InstrumentodeMedicionAssist
             this.fileMenu.Size = new System.Drawing.Size(125, 24);
             this.fileMenu.Text = "&Iniciar Encuesta";
             this.fileMenu.Click += new System.EventHandler(this.fileMenu_Click);
+            // 
+            // consultaPacientesToolStripMenuItem
+            // 
+            this.consultaPacientesToolStripMenuItem.Name = "consultaPacientesToolStripMenuItem";
+            this.consultaPacientesToolStripMenuItem.Size = new System.Drawing.Size(145, 24);
+            this.consultaPacientesToolStripMenuItem.Text = "Consulta Pacientes";
+            this.consultaPacientesToolStripMenuItem.Click += new System.EventHandler(this.consultaPacientesToolStripMenuItem_Click);
             // 
             // viewMenu
             // 
@@ -177,10 +186,10 @@ namespace InstrumentodeMedicionAssist
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 752);
+            this.statusStrip.Location = new System.Drawing.Point(0, 751);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip.Size = new System.Drawing.Size(1152, 26);
+            this.statusStrip.Size = new System.Drawing.Size(1171, 26);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -194,7 +203,7 @@ namespace InstrumentodeMedicionAssist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1152, 778);
+            this.ClientSize = new System.Drawing.Size(1171, 777);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -233,6 +242,7 @@ namespace InstrumentodeMedicionAssist
         private System.Windows.Forms.ToolStripMenuItem closeAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arrangeIconsToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.ToolStripMenuItem consultaPacientesToolStripMenuItem;
     }
 }
 

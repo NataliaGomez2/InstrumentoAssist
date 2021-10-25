@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\Modelos.dll.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\Modelos.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\obj\Debug\Modelos.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\obj\Debug\Modelos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\obj\Debug\Modelos.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\Modelos\obj\Debug\Modelos.pdb

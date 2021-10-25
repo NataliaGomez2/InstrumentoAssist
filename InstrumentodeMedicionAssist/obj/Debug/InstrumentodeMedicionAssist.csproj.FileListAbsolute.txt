@@ -1,0 +1,56 @@
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.exe.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.exe
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Properties.Resources.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.exe
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.IngresarDatosPaciente.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.InicioEvaluacion.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Repositorio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Repositorio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.FormularioIngreso.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Preguntas.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Resultados.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\PROGRAMACIÓN 2\InstrumentodeMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Menu.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.exe.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.exe
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\InstrumentodeMedicionAssist.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Repositorio.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Repositorio.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Menu.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.IngresarDatosPaciente.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.FormularioIngreso.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Preguntas.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.InicioEvaluacion.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Properties.Resources.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.Resultados.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.exe
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.FormularioConsultaPaciente.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\obj\Debug\InstrumentodeMedicionAssist.FormularioConsultaPacientes.resources
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Modelos.dll
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Repositorio.dll.config
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Modelos.pdb
+C:\Users\Usuario\Desktop\SEXTO SEMESTRE\InstrumentoMedicionAssist\InstrumentodeMedicionAssist\bin\Debug\Modelos.dll.config
